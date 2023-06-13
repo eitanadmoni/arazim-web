@@ -3,6 +3,22 @@
     <head>
         <title>arazim web</title>
     </head>
+    <head>
+    <style>
+        body {
+        background-image: url("https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+        }
+        h3{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         height: 200px;
+         font-family: Courier New;
+         font-size: 300%;
+        }
+        p    {color: red;}
+    </style>
+    </head>
     <body>
         <h3>Hello {{ request.args.get('name') }}</h3>
     </body>
